@@ -1,0 +1,93 @@
+﻿<local:MyCard Title="使用须知(任何问题请加群反馈!)" Margin="0,-20,0,10">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="17"
+                   Text="感谢您使用沙雕世界客户端，本端需要JDK17以上才可运行" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                   Text="推荐选择 [1.19.3-沙雕世界服务器],若没有请选择 [1.18.2-沙雕世界服务器]" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" 
+                   Text="点击启动后等待下载完整即可进入游戏(只需一次)，游戏ID控制在2-20字符以内(无法中文哦)" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="14"
+                   Text="视距默认18(如果游玩服务器卡顿请降低视距)。窗口大小-默认(1600x900)、内存分配、java路径均可在设置里调节！" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                   Text="内置了一些优化或辅助的mod(可自行删/增)，但更改后遇到问题服务器方可选择不给予处理。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                   Text="沙雕世界QQ群: 739811623   目前服务器唯一管理(腐竹)——游戏ID: polang" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="加入QQ群" Margin="20,0,20,10">
+    <StackPanel Margin="0,0,0,0">
+        <local:MyButton Margin="20,5,0,5" Width="100" Height="30" ColorType="Red"
+                   Text="点击加群" EventType="打开网页" EventData="http://sdsjmc.icu" ToolTip="点击加群" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="B站宣传" Margin="20,0,20,10">
+    <StackPanel Margin="0,0,0,0">
+        <local:MyButton Margin="20,5,0,5" Width="100" Height="30" ColorType="Highlight"
+                   Text="点击打开视频" EventType="打开网页" EventData="http://sdsjmc.icu/T72sp" ToolTip="点击打开视频" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="mcbbs宣传帖" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,25,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="前往BBS宣传帖，服务器还在进步，根据自己的意愿为服务器加油叭！" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往BBS帖子" EventType="打开网页" EventData="http://www.shadiaosj.xyz" ToolTip="点击进入帖子" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="mc百科宣传帖" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,25,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="前往百科内服务器帖，需要你的点赞评分加收藏QWQ" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="该帖内评论还会得到额外奖励！留下你的真心话叭！" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往MC百科" EventType="打开网页" EventData="https://play.mcmod.cn/sv20185062.html" ToolTip="点击进入百科" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我的世界找服网" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,25,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="前往网站服务器帖点赞+收藏或者帮宣，会得到奖励哦" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="该帖内帮置顶会得到额外奖励哦" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往我的世界找服网" EventType="打开网页" EventData="https://www.fansmc.com/server/1171.html" ToolTip="点击进入网站" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我的世界服务器列表" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,25,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="服务器在该站有宣传贴，可以去看看哦" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往mclists.cn" EventType="打开网页" EventData="https://www.mclists.cn/server/4272.html" ToolTip="点击进入" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我的世界中文分享站" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,25,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="服务器在该站也有宣传贴，可以去看看哦" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往secretmine.net" EventType="打开网页" EventData="https://www.secretmine.net/62125.html" ToolTip="点击进入" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我的世界中文站" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,25,10">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="服务器另一个宣传贴，也可以去看看哦" />
+        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往minecraftzw.coM" EventType="打开网页" EventData="https://www.minecraftzw.com/21417.html" ToolTip="点击进入" />
+                           <local:MyButton Margin="0,8,0,0" Width="250" Height="35" ColorType="Highlight"
+                   Text="前往minecraftzw.coM(旧帖)" EventType="打开网页" EventData="https://www.minecraftzw.com/16823.html" ToolTip="点击进入" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Margin="0,430,0,0">
+</local:MyCard>
