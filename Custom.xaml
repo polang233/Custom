@@ -1,17 +1,17 @@
-﻿<local:MyCard Title="使用须知(任何问题请加群反馈!)" Margin="0,-20,0,10">
+<local:MyCard Title="使用须知()" Margin="0,-20,0,10">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="17"
                    Text="感谢您使用沙雕世界客户端，本端需要JDK17以上才可运行" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
-                   Text="推荐选择 [1.19.3-沙雕世界服务器],若没有请选择 [1.18.2-沙雕世界服务器]" />
+                   Text="请使用 [1.20.1-沙雕世界服务器] (遇到任何问题请加群反馈！)" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" 
-                   Text="点击启动后等待下载完整即可进入游戏(只需一次)，游戏ID控制在2-20字符以内(无法中文哦)" />
+                   Text="点击启动后等待补全完整即可进入游戏(只需一次)，游戏ID控制在2-20字符以内(无法中文哦)" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="14"
-                   Text="视距默认18(如果游玩服务器卡顿请降低视距)。窗口大小-默认(1600x900)、内存分配、java路径均可在设置里调节！" />
+                   Text="视距默认18(如果游玩卡顿请首先降低视距),窗口大小-默认(1600x900)、内存分配、java路径均可在设置里调节！" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
                    Text="内置了一些优化或辅助的mod(可自行删/增)，但更改后遇到问题服务器方可选择不给予处理。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
-                   Text="沙雕世界QQ群: 739811623   目前服务器唯一管理(腐竹)——游戏ID: polang" />
+                   Text="沙雕世界QQ群: 739811623   服务器唯一管理(腐竹)——游戏ID: polang" />
     </StackPanel>
 </local:MyCard>
 
@@ -29,7 +29,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="mcbbs宣传帖" Margin="0,0,0,15">
+<local:MyCard Title="MCBBS宣传帖" Margin="0,0,0,15">
     <StackPanel Margin="25,40,25,10">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="前往BBS宣传帖，服务器还在进步，根据自己的意愿为服务器加油叭！" />
@@ -89,5 +89,5 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Margin="0,430,0,0">
+<local:MyCard Margin="0,450,0,0">
 </local:MyCard>
